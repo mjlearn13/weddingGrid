@@ -24,6 +24,7 @@
 }
 
 html {
+    font-size: 16px;
     background: url(images/rosesInCorner.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
@@ -106,7 +107,7 @@ a {
 
 /* Animation */
 
-.party {
+/* .party {
     animation: complete 5s infinite;
   }
   
@@ -123,7 +124,7 @@ a {
     100% {
       color: var(--pink);
     }
-}
+} */
 
 /* Gurus */
 
@@ -249,17 +250,17 @@ a {
     flex-direction: column;
 }
 
-.gurdwara {
+/* .gurdwara {
     line-height: .3;
-}
+} */
 
-.gurdwara-prog {
+/* .gurdwara-prog {
     line-height: .5;
-}
+} */
 
-.reception {
+/* .reception {
     line-height: .3;
-}
+} */
 
 /* RSVP & Regards*/
 
@@ -280,21 +281,9 @@ a {
 
 /* Media Query */
 
-@media screen and (max-width: 280px) {
-    .reception-title {
-        font-size: 1.3rem;
-    }
-    .gurdwara > h2 {
-        font-size: 1.2rem;
-    }
-}
-
 @media screen and (max-width:320px) {
-    .reception-title {
-        font-size: 1.4rem;
-    }
-    .gurdwara > h2 {
-        font-size: 1.5rem;
+    html {
+        font-size: 12px;
     }
 }
 
@@ -305,88 +294,12 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-    .nav-column-txt {
-        font-size: 2.8125rem;
-    }
-    .welcome-txt > h2 {
-        font-size: 3rem;
-    }
-    .welcome-txt > h3 {
-        font-size: 2rem;
-    }
-    .welcome-txt > h1 {
-        font-size: 3.5rem;
-    }
-    .main-img-container {
-        align-items: flex-end;
-    }
-    .detail-ladies-txt > h1 {
-        font-size: 3.44rem;
-    }
-
-    .detail-ladies-txt1 > h2 {
-        font-size: 2.5rem;
-    }
-    .detail-ladies-txt1 > h4 {
-        font-size: 2.19rem;
-    }
-    .detail-ladies-txt1 > h3 {
-        font-size: 2.19rem;
-    }
-    .button {
-        font-size: 2rem;
-    }
-    .detail-anand-names > h2 {
-        font-size: 2.7rem;
-    }
-    .detail-anand-names > h4 {
-        font-size: 1.7rem;
-    }
-    .detail-anand-names > h3 {
-        font-size: 1.4rem;
-    }
-    .detail-anand-names > h1 {
-        font-size: 4.5rem;
-    }
-    .gurdwara > h3 {
-        font-size: 2.4rem;
-    }
-    .gurdwara > h2 {
-        font-size: 2.8rem;
-    }
-    .gurdwara > h5 {
-        font-size: 1.7rem;
-    }
-    .gurdwara-prog > h3 {
-        font-size: 2.4rem;
-    }
-    .reception > h2 {
-        font-size: 3.5rem;
-    }
-    .reception > h5 {
-        font-size: 1.7rem;
-    }
-    .detail-reception-txt > h1 {
-        font-size: 4.5rem;
-    }
-    .rsvp-address > h4 {
-        font-size: 1.7rem;
-    }
-    .rsvp-address > h2 {
-        font-size: 3rem;
-    }
-    .rsvp-address > h3 {
-        font-size: 2.1rem;
-    }
-    .regards-family > h2 {
-        font-size: 3rem;
+    html {
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .welcome-txt > h2 {
-        font-size: 2rem;
-    }
     .main-img-container {
         align-items: center;
     }
