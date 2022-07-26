@@ -105,27 +105,6 @@ a {
     cursor: pointer;
 }
 
-/* Animation */
-
-.party {
-    animation: complete 5s infinite;
-  }
-  
-@keyframes complete {
-    0% {
-      color: var(--bergundy);
-    }
-  
-    50% {
-      color: var(--red);
-      transform: scale(1.5);
-    }
-  
-    100% {
-      color: var(--pink);
-    }
-}
-
 /* Gurus */
 
 .gurus {
@@ -137,7 +116,7 @@ a {
 .ek-onkar {
     border-radius: 50%;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* Main page */
