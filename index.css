@@ -107,7 +107,7 @@ a {
 
 /* Animation */
 
-/* .party {
+.party {
     animation: complete 5s infinite;
   }
   
@@ -124,31 +124,20 @@ a {
     100% {
       color: var(--pink);
     }
-} */
+}
 
 /* Gurus */
 
 .gurus {
     grid-column: 1 / -1;
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid red;
-}
-
-
-.gurus-img {
-    height: 100%;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-
-
-    border: 1px solid red;
+    justify-content: center;
 }
 
 .ek-onkar {
     border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 /* Main page */
@@ -251,24 +240,13 @@ a {
 
 .detail-anand-txt {
     text-align: center;
+    padding: 15px
 }
 
 .detail-anand-names {
     display: flex;
     flex-direction: column;
 }
-
-/* .gurdwara {
-    line-height: .3;
-} */
-
-/* .gurdwara-prog {
-    line-height: .5;
-} */
-
-/* .reception {
-    line-height: .3;
-} */
 
 /* RSVP & Regards*/
 
