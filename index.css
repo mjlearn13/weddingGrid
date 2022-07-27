@@ -109,12 +109,13 @@ a {
 
 .gurus {
     grid-column: 1 / -1;
-    justify-content: center;
+    
 }
 
 .ek-onkar {
     border-radius: 50%;
     height: 100%;
+    width: 100%;
 }
 
 /* Main page */
