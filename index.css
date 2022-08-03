@@ -170,7 +170,8 @@ a {
 
 .main-img {
     width: 90%;
-    border-radius: 0.3125rem;
+    border-radius: 50%;
+    /* border-radius: 0.3125rem; */
     box-shadow: -0.3125rem 0.3125rem 0.9375rem var(--pink);
 }
 
